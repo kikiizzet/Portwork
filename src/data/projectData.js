@@ -14,7 +14,7 @@ import banner_todolist2 from "../assets/projects/todolist2.png";
 import srs1 from "../assets/projects/admin.png";
 import srs2 from "../assets/projects/candidat.png";
 import Weddingevent from "../assets/projects/wedding.png";
-import Weddingevent2 from "../assets/projects/wedding2.png";
+import weddingevent2 from "../assets/projects/wedding2.png";
 export const projectData = [
 
 
@@ -99,7 +99,7 @@ export const projectData = [
     title: "Wedding Invitation Website",
     subtitle: "ReactJS • TailwindCSS • NodeJS • PostgreSQL • Golang",
     description: "Sebuah website untuk undangan pernikahan yang interaktif dan modern, memungkinkan pasangan untuk berbagi informasi acara, galeri foto, dan RSVP online. Dibangun dengan ReactJS untuk frontend dan NodeJS serta Golang untuk backend.",
-    images: [Weddingevent, Weddingevent2], // Simulasi Landing & Admin Page
+    images: [Weddingevent, weddingevent2], // Simulasi Landing & Admin Page
     borderColor: "#EC4899",
     gradient: "linear-gradient(160deg,#EC4899 0%,#000 70%)",
   },

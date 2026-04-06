@@ -48,6 +48,12 @@ const App = () => {
     document.documentElement.style.setProperty("--accent-rgb", theme.accentRgb);
   }, [activeColor]);
 
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 4000);
+    return () => clearTimeout(timer);
+  }, []);
+
+
   const openModal = (project) => {
     setSelectedProject(project);
     setIsModalOpen(true);

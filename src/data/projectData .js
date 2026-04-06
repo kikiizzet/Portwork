@@ -90,7 +90,7 @@ export const projectData = [
     title: "Todo List App",
     subtitle: "Dart • Flutter • Firebase",
     description: "Aplikasi manajemen tugas lintas platform yang dibangun dengan Flutter. Menggunakan Firebase untuk sinkronisasi data secara real-time antar perangkat dan sistem autentikasi pengguna.",
-    images: [banner_todolist, banner_todolist1, banner_todolist2], // Simulasi Landing & Admin Page
+    images: [banner_todolist, banner_todolist1, banner_todolist2], // Todo List App untuk produktivitas
     borderColor: "#EF4444",
     gradient: "linear-gradient(160deg,#EF4444 0%,#000 70%)",
   },

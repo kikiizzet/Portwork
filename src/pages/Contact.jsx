@@ -14,8 +14,8 @@ const socials = [
   }*/,
   {
     name: "Instagram",
-    value: "@mo.izzet",
-    href: "https://www.instagram.com/mo.izzet/",
+    value: "@kiki.izzet",
+    href: "https://www.instagram.com/kikiizzet/",
     icon: instagram,
   },
   /*{

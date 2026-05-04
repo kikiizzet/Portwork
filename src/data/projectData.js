@@ -15,6 +15,10 @@ import srs1 from "../assets/projects/admin.png";
 import srs2 from "../assets/projects/candidat.png";
 import Weddingevent from "../assets/projects/wedding.png";
 import weddingevent2 from "../assets/projects/wedding2.png";
+import fathcomput from "../assets/projects/fathcomp.png";
+import fathcomput2 from "../assets/projects/fathcomp2.png";
+import beon from "../assets/projects/beon.png";
+
 export const projectData = [
 
 
@@ -103,4 +107,22 @@ export const projectData = [
     borderColor: "#EC4899",
     gradient: "linear-gradient(160deg,#EC4899 0%,#000 70%)",
   },
+  {
+    image: fathcomput,
+    title: "Fath Comp",
+    subtitle: "Laravel • TailwindCSS • MySQL",
+    description: "Sistem booking service dan penjualan aksesoris komputer",
+    images: [fathcomput, fathcomput2], // Simulasi Landing & Admin Page
+    borderColor: "#8B5CF6",
+    gradient: "linear-gradient(160deg,#8B5CF6 0%,#000 70%)",
+  },
+  {
+    image: beon,
+    title: "BeOne-RT",
+    subtitle: "Laravel • ReactJS • TailwindCSS",
+    description: "BeOne-RT adalah proyek aplikasi yang sedang dikembangkan dengan fokus pada manajemen atau sistem informasi di tingkat Rukun Tetangga.",
+    borderColor: "#064C3C",
+    images: [beon],
+    gradient: "linear-gradient(160deg,#064C3C 0%,#000 70%)",
+  }
 ];
